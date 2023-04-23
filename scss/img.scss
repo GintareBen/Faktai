@@ -1,8 +1,7 @@
 img {
     width: 100%;
-    height: 30vw;
-    object-fit: cover;
-    object-position: center;
-    border-radius: 4px;
-    filter: opacity(80%);
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    opacity: 0.8;
   }
