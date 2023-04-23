@@ -10,24 +10,28 @@
 </head>
 <body>
   <h1>Ar žinojote, kad???</h1>
-  <button onclick="showTab(event,'pirmas')">Pirmas</button>
-  <button onclick="showTab(event,'antras')">Antras</button>
-  <button onclick="showTab(event,'trecias')">Trecias</button>
-
-  <div class="tabs">
-    <div id="pirmas" class="tab" >
-      <p>Niujorke yra tiek restoranų, kad vienas  žmogus galėtų kas vakarą vakarieniauti vis kitame net 54 metus.</p>
-        <img src="app/images/new york.jpg" alt="NewYork">
-    </div>
-    <div id="antras" class="tab" >
-      <p>Kosmose yra alkoholio debesis, kuriame esančio alkoholio pakaktų užpildyti 4 trilijonus-trilijonų (4 su 24 nuliais) butelių alkoholinių gėrimų.</p>
-        <img src="app/images/alko.jpg" alt="Alko">
-    </div>
-    <div id="trecias" class="tab" >
-      <p>Kai buvo pradėta gaminti Coca-Cola, iš pradžių pagrindiniai jos ingredientai buvo kokainas ir kofeinas.</p>
-        <img src="app/images/coke.jpg" alt="Coke">
-    </div>
-</div>
+  <div class="tabwrap">
+    <div class="buttonwrap">
+    <button onclick="showTab(event,'pirmas')">New York</button>
+    <button onclick="showTab(event,'antras')">Kosmosas</button>
+    <button onclick="showTab(event,'trecias')">Coca-Cola</button>
+  </div>
+  
+    <div class="tabs">
+      <div id="pirmas" class="tab" >
+        <p>Niujorke yra tiek restoranų, kad vienas  žmogus galėtų kas vakarą vakarieniauti vis kitame net 54 metus.</p>
+          <img src="app/images/new york.jpg" alt="NewYork">
+      </div>
+      <div id="antras" class="tab" >
+        <p>Kosmose yra alkoholio debesis, kuriame esančio alkoholio pakaktų užpildyti 4 trilijonus-trilijonų (4 su 24 nuliais) butelių alkoholinių gėrimų.</p>
+          <img src="app/images/alko.jpg" alt="Alko">
+      </div>
+      <div id="trecias" class="tab" >
+        <p>Kai buvo pradėta gaminti Coca-Cola, iš pradžių pagrindiniai jos ingredientai buvo kokainas ir kofeinas.</p>
+          <img src="app/images/coke.jpg" alt="Coke">
+      </div>
+  </div>
+  </div>
 
 <script src="script.js"></script>
 

@@ -6,8 +6,21 @@
     margin: auto;
     border-radius: 4px;
     padding: 30px;
+    gap: 1rem;
+    p {
+      padding: 1rem;
+    }
   }
   
+  .tabwrap {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+
   .tab {
     display: none;
   }
+
+  
+

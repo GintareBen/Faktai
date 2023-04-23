@@ -6,8 +6,9 @@
   
   body {
     min-height: 100vh;
-    background: url("images/IMG_4.jpg");
+    background-image: url("../images/question.jpg");
     background-size: cover;
+    background-position: top right;
     color: white;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -30,3 +31,5 @@
     margin-bottom: 30px;
     letter-spacing: 2px;
   }
+
+  
