@@ -1,16 +1,14 @@
 .tabs {
-    background: #ffffff36;
-    box-shadow: 4px 4px 5px #f5f5f53e;
-    max-width: 1000px;
-    width: 90%;
-    margin: auto;
-    border-radius: 4px;
-    padding: 30px;
-    gap: 1rem;
-    p {
-      padding-bottom: 1rem;
-    }
+  position: relative;
+  max-width: 1000px;
+  width: 90%;
+  border-radius: 4px;
+  padding: 30px;
+  gap: 1rem;
+  p {
+    padding-bottom: 1rem;
   }
+}
   
   .tabwrap {
     display: flex;
@@ -18,7 +16,20 @@
   }
 
   .tab {
-    display: none;
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 4px 4px 5px #f5f5f53e;
+    padding: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    transform: translateY(50px);
+    &.selected {
+      opacity: 1;
+      transform: translateY(0px);
+    }
   }
 
 
